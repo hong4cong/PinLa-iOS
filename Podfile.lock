@@ -1,0 +1,66 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - HMSegmentedControl (1.5.1)
+  - KxMenu (1)
+  - MJExtension (2.1.0)
+  - MJRefresh (1.0)
+  - Reachability (3.2)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - UMengAnalytics-NO-IDFA (3.5.9)
+  - XGPush (2.3)
+
+DEPENDENCIES:
+  - AFNetworking
+  - HMSegmentedControl
+  - KxMenu
+  - MJExtension
+  - MJRefresh (from `https://github.com/hong4cong/MJRefresh.git`, commit `de9df94`)
+  - Reachability
+  - SDWebImage
+  - UMengAnalytics-NO-IDFA
+  - XGPush
+
+EXTERNAL SOURCES:
+  MJRefresh:
+    :commit: de9df94
+    :git: https://github.com/hong4cong/MJRefresh.git
+
+CHECKOUT OPTIONS:
+  MJRefresh:
+    :commit: de9df94
+    :git: https://github.com/hong4cong/MJRefresh.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  HMSegmentedControl: 35460abdd15c3087368db2d3d956717f088b34d1
+  KxMenu: c025365712f55fa99feb7830fbb7dea0e912be72
+  MJExtension: d4fd481247b262b59cf8cdf5815661cff460aaa2
+  MJRefresh: a2326922e4dfd631405a2a9ed839fc0f5a02b5ca
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  UMengAnalytics-NO-IDFA: c5302a2246061c356641bb3056e89dfbdeb37424
+  XGPush: fa2e9fce1895ea238bcd92dd0a5189a5452e15f2
+
+COCOAPODS: 0.36.3

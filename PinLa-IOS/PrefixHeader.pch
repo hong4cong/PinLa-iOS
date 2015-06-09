@@ -1,0 +1,54 @@
+//
+//  PrefixHeader.pch
+//  PinLa-IOS
+//
+//  Created by 洪聪 on 15/4/8.
+//  Copyright (c) 2015年 tenTab. All rights reserved.
+//
+
+#ifndef PinLa_IOS_PrefixHeader_pch
+#define PinLa_IOS_PrefixHeader_pch
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "PinLaDefines.h"
+#import "APIConfig.h"
+#import "AppUtils.h"
+#import "DateUtils.h"
+#import "UIColor+Util.h"
+#import "UIImage+Util.h"
+#import "UIButton+Style.h"
+#import "SVProgressHUD.h"
+#import "HexagonView.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endif
+
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#ifdef DEBUG
+#define DLog( s, ... ) NSLog( @"<%p %@:(%d)> %@", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define DLog( s, ... )
+#endif
+
+#endif
